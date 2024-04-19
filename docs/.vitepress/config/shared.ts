@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { search as zhSearch } from './zh'
+import { search as zhSearch } from './zh.mjs'
 
 export const shared = defineConfig({
   title: '山水画路社区·官方文档',
@@ -54,7 +54,7 @@ export const shared = defineConfig({
         appId: '8J64VVRP8K',
         apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
         indexName: 'vitepress',
-        locales: { ...zhSearch, ...ptSearch, ...ruSearch }
+        locales: { ...zhSearch}
       }
     },
 

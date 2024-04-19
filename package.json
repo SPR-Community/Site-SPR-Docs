@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@types/node": "^20.12.7",
+    "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.0.0-rc.44"
   },
   "scripts": {
@@ -8,5 +10,4 @@
     "preview": "vitepress preview docs"
   },
   "type": "module"
-  
 }
