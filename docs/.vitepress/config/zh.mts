@@ -9,6 +9,7 @@ export const zh = defineConfig({
   description: "这里是山水画路社区的官方文档",
 
   themeConfig: {
+    logo: 'https://static.shanshui.site/logo.ico',
     nav: ([
         { text: '首页', link: '/' },
         { text: '开源项目', link: '/opensource/' },
@@ -42,13 +43,13 @@ export const zh = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/ShanshuiCommunity/shanshuicommunity.github.io/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
     footer: {
-      message: '基于 MIT 许可发布',
-      copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
+      // message: '基于 MIT 许可发布',
+      copyright: `版权所有 © 2023-${new Date().getFullYear()} Minecraft_山水`
     },
 
     docFooter: {

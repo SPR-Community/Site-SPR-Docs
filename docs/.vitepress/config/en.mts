@@ -9,6 +9,7 @@ export const en = defineConfig({
   description: "This is the Official Docs of Shanshui Community",
 
   themeConfig: {
+    logo: 'https://static.shanshui.site/logo.ico',
     nav: ([
         { text: 'Home', link: '/en/' },
         { text: 'OpenSource Project', link: '/en/opensource/' },
@@ -42,13 +43,13 @@ export const en = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/ShanshuiCommunity/shanshuicommunity.github.io/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
     footer: {
-      message: '基于 MIT 许可发布',
-      copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
+      // message: '基于 MIT 许可发布',
+      copyright: `CopyRight © 2023-${new Date().getFullYear()} Minecraft_Shanshui`
     },
 
     docFooter: {
