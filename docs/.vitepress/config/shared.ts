@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { search as zhSearch } from './zh.mjs'
+// import { search as enSearch } from './en.mjs'
 
 export const shared = defineConfig({
   title: '山水画路社区·官方文档',
@@ -29,31 +30,31 @@ export const shared = defineConfig({
 
   /* prettier-ignore */
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://static.shanshui.site/logo.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://static.shanshui.site/logo.ico' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh' }],
-    ['meta', { property: 'og:title', content: 'VitePress | Vite & Vue Powered Static Site Generator' }],
+    ['meta', { property: 'og:title', content: 'Shanshui Community Docs | 山水画路社区·文档' }],
     ['meta', { property: 'og:site_name', content: 'VitePress' }],
-    ['meta', { property: 'og:image', content: 'https://vitepress.dev/vitepress-og.jpg' }],
-    ['meta', { property: 'og:url', content: 'https://vitepress.dev/' }],
+    ['meta', { property: 'og:image', content: 'https://static.shanshui.site/logo.ico' }],
+    ['meta', { property: 'og:url', content: 'https://shanshuicommunity.github.io' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
   ],
 
   themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
+    logo: { src: 'https://static.shanshui.site/logo.ico', width: 24, height: 24 },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/shanshuicommunity' }
     ],
 
     search: {
       provider: 'algolia',
       options: {
-        appId: '8J64VVRP8K',
-        apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-        indexName: 'vitepress',
+        appId: 'CWUKJ9S5FC',
+        apiKey: '1cc25519b63b40ef807569b1087b66bd',
+        indexName: 'Shanshui-Site',
         locales: { ...zhSearch}
       }
     },
