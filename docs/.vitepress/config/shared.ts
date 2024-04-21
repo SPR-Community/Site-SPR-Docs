@@ -43,7 +43,8 @@ export const shared = defineConfig({
   ],
 
   themeConfig: {
-    logo: { src: 'https://static.shanshui.site/logo.ico', width: 24, height: 24 },
+    // logo: { src: 'https://static.shanshui.site/logo.ico', width: 24, height: 24 },
+    logo: 'https://static.shanshui.site/logo.ico',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/shanshuicommunity' }
@@ -58,7 +59,5 @@ export const shared = defineConfig({
         locales: { ...zhSearch}
       }
     },
-
-    carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   }
 })

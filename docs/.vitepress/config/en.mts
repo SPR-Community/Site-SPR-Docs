@@ -9,7 +9,7 @@ export const en = defineConfig({
   description: "This is the Official Docs of Shanshui Community",
 
   themeConfig: {
-    logo: 'https://static.shanshui.site/logo.ico',
+    // logo: 'https://static.shanshui.site/logo.ico',
     nav: ([
         { text: 'Home', link: '/en/' },
         { text: 'OpenSource Project', link: '/en/opensource/' },

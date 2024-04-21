@@ -9,7 +9,6 @@ export const zh = defineConfig({
   description: "这里是山水画路社区的官方文档",
 
   themeConfig: {
-    logo: 'https://static.shanshui.site/logo.ico',
     nav: ([
         { text: '首页', link: '/' },
         { text: '开源项目', link: '/opensource/' },

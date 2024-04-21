@@ -7,7 +7,7 @@ hero:
   text: "开源·共享·发展"
   tagline: 文档正在测试......
   image:
-    src: /logo.png
+    src: https://static.shanshui.site/logo.png
     alt: VitePress
   actions:
     - theme: brand
