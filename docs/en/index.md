@@ -7,15 +7,15 @@ hero:
   text: "Open·Share·Develop"
   tagline: The Docs is testing...
   image:
-    src: /logo.png
-    alt: VitePress
+    src: https://static.shanshui.site/logo.png
+    alt: SPR-Community
   actions:
     - theme: brand
       text: OpenSource Project
       link: /en/opensource/
     - theme: alt
       text: The Community Rules
-      link: /en//rule/
+      link: /en/rule/
 
 features:
   - title: OpenSource Project

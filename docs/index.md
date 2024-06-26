@@ -8,7 +8,7 @@ hero:
   tagline: 文档正在测试......
   image:
     src: https://static.shanshui.site/logo.png
-    alt: VitePress
+    alt: SPR-Community
   actions:
     - theme: brand
       text: 开源项目
