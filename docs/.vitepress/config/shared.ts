@@ -38,7 +38,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:title', content: 'Shanshui Community Docs | 山水画路社区·文档' }],
     ['meta', { property: 'og:site_name', content: 'VitePress' }],
     ['meta', { property: 'og:image', content: 'https://static.shanshui.site/logo.ico' }],
-    ['meta', { property: 'og:url', content: 'https://shanshuicommunity.github.io' }],
+    ['meta', { property: 'og:url', content: 'https://docs.community.shanshui.site/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
   ],
 
@@ -47,7 +47,7 @@ export const shared = defineConfig({
     logo: 'https://static.shanshui.site/logo.ico',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/shanshuicommunity' }
+      { icon: 'github', link: 'https://github.com/SPR-Community' }
     ],
 
     search: {

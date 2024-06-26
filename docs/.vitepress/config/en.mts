@@ -5,8 +5,8 @@ const require = createRequire(import.meta.url)
 
 export const en = defineConfig({
   lang: 'en-US',
-  title: "ShanshuiCommunity·Docs",
-  description: "This is the Official Docs of Shanshui Community",
+  title: "SPR-Community·Docs",
+  description: "This is the Official Docs of Shanshui Painting Road Community",
 
   themeConfig: {
     // logo: 'https://static.shanshui.site/logo.ico',
@@ -43,7 +43,7 @@ export const en = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/ShanshuiCommunity/shanshuicommunity.github.io/edit/main/docs/:path',
+      pattern: 'https://github.com/SPR-Community/docs.community.shanshui.site/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
